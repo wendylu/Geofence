@@ -1,7 +1,9 @@
 Geofence
 =============
 
-An iOS app that tracks a user's location using only geofencing
+An iOS app that tracks and logs a user's location using only geofencing.
+
+Functional when the app is in the foreground or background. Built in 2012 for iOS6. Logs are written out to log.txt.
 
 ## Get Started
 
@@ -11,7 +13,7 @@ git clone git@github.com:wendylu/Geofence.git
 
 ## Requirements
 
-Geofence requires iOS 6.0 or higher and ARC
+Geofence requires iOS 5.1 or higher and ARC
 
 ## About This Project
 
