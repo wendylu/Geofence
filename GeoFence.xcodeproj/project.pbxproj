@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2D3FA9B15C05DDC002C6501 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D3FA9A15C05DDC002C6501 /* UIKit.framework */; };
+		A2D3FA9D15C05DDC002C6501 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D3FA9C15C05DDC002C6501 /* Foundation.framework */; };
+		A2D3FA9F15C05DDC002C6501 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D3FA9E15C05DDC002C6501 /* CoreGraphics.framework */; };
+		A2D3FAA515C05DDC002C6501 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2D3FAA315C05DDC002C6501 /* InfoPlist.strings */; };
+		A2D3FAA715C05DDC002C6501 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D3FAA615C05DDC002C6501 /* main.m */; };
+		A2D3FAAB15C05DDD002C6501 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D3FAAA15C05DDD002C6501 /* AppDelegate.m */; };
+		A2D3FAB615C0630C002C6501 /* GeoFencer.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D3FAB515C0630C002C6501 /* GeoFencer.m */; };
+		A2D3FAB915C06C97002C6501 /* MyCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D3FAB815C06C97002C6501 /* MyCircle.m */; };
+		A2D3FABB15C0782A002C6501 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D3FABA15C0782A002C6501 /* CoreLocation.framework */; };
+		A2D3FABF15C07B21002C6501 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D3FABD15C07B21002C6501 /* ViewController.m */; };
+		A2D3FAC015C07B21002C6501 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2D3FABE15C07B21002C6501 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2D3FA9615C05DDC002C6501 /* GeoFence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoFence.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D3FA9A15C05DDC002C6501 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2D3FA9C15C05DDC002C6501 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2D3FA9E15C05DDC002C6501 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2D3FAA215C05DDC002C6501 /* GeoFence-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoFence-Info.plist"; sourceTree = "<group>"; };
+		A2D3FAA415C05DDC002C6501 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2D3FAA615C05DDC002C6501 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2D3FAA815C05DDD002C6501 /* GeoFence-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoFence-Prefix.pch"; sourceTree = "<group>"; };
+		A2D3FAA915C05DDD002C6501 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2D3FAAA15C05DDD002C6501 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2D3FAB415C0630C002C6501 /* GeoFencer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFencer.h; sourceTree = "<group>"; };
+		A2D3FAB515C0630C002C6501 /* GeoFencer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoFencer.m; sourceTree = "<group>"; };
+		A2D3FAB715C06C97002C6501 /* MyCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCircle.h; sourceTree = "<group>"; };
+		A2D3FAB815C06C97002C6501 /* MyCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCircle.m; sourceTree = "<group>"; };
+		A2D3FABA15C0782A002C6501 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A2D3FABC15C07B20002C6501 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = ViewController.h; sourceTree = "<group>"; };
+		A2D3FABD15C07B21002C6501 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2D3FABE15C07B21002C6501 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2D3FA9315C05DDC002C6501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D3FABB15C0782A002C6501 /* CoreLocation.framework in Frameworks */,
+				A2D3FA9B15C05DDC002C6501 /* UIKit.framework in Frameworks */,
+				A2D3FA9D15C05DDC002C6501 /* Foundation.framework in Frameworks */,
+				A2D3FA9F15C05DDC002C6501 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2D3FA8B15C05DDC002C6501 = {
+			isa = PBXGroup;
+			children = (
+				A2D3FABA15C0782A002C6501 /* CoreLocation.framework */,
+				A2D3FAA015C05DDC002C6501 /* GeoFence */,
+				A2D3FA9915C05DDC002C6501 /* Frameworks */,
+				A2D3FA9715C05DDC002C6501 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2D3FA9715C05DDC002C6501 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2D3FA9615C05DDC002C6501 /* GeoFence.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2D3FA9915C05DDC002C6501 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2D3FA9A15C05DDC002C6501 /* UIKit.framework */,
+				A2D3FA9C15C05DDC002C6501 /* Foundation.framework */,
+				A2D3FA9E15C05DDC002C6501 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2D3FAA015C05DDC002C6501 /* GeoFence */ = {
+			isa = PBXGroup;
+			children = (
+				A2D3FAA915C05DDD002C6501 /* AppDelegate.h */,
+				A2D3FAAA15C05DDD002C6501 /* AppDelegate.m */,
+				A2D3FAA115C05DDC002C6501 /* Supporting Files */,
+				A2D3FAB415C0630C002C6501 /* GeoFencer.h */,
+				A2D3FAB515C0630C002C6501 /* GeoFencer.m */,
+				A2D3FAB715C06C97002C6501 /* MyCircle.h */,
+				A2D3FAB815C06C97002C6501 /* MyCircle.m */,
+				A2D3FABC15C07B20002C6501 /* ViewController.h */,
+				A2D3FABD15C07B21002C6501 /* ViewController.m */,
+				A2D3FABE15C07B21002C6501 /* ViewController.xib */,
+			);
+			path = GeoFence;
+			sourceTree = "<group>";
+		};
+		A2D3FAA115C05DDC002C6501 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2D3FAA215C05DDC002C6501 /* GeoFence-Info.plist */,
+				A2D3FAA315C05DDC002C6501 /* InfoPlist.strings */,
+				A2D3FAA615C05DDC002C6501 /* main.m */,
+				A2D3FAA815C05DDD002C6501 /* GeoFence-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2D3FA9515C05DDC002C6501 /* GeoFence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D3FAAE15C05DDD002C6501 /* Build configuration list for PBXNativeTarget "GeoFence" */;
+			buildPhases = (
+				A2D3FA9215C05DDC002C6501 /* Sources */,
+				A2D3FA9315C05DDC002C6501 /* Frameworks */,
+				A2D3FA9415C05DDC002C6501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoFence;
+			productName = GeoFence;
+			productReference = A2D3FA9615C05DDC002C6501 /* GeoFence.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2D3FA8D15C05DDC002C6501 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A2D3FA9015C05DDC002C6501 /* Build configuration list for PBXProject "GeoFence" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2D3FA8B15C05DDC002C6501;
+			productRefGroup = A2D3FA9715C05DDC002C6501 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2D3FA9515C05DDC002C6501 /* GeoFence */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2D3FA9415C05DDC002C6501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D3FAA515C05DDC002C6501 /* InfoPlist.strings in Resources */,
+				A2D3FAC015C07B21002C6501 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2D3FA9215C05DDC002C6501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D3FAA715C05DDC002C6501 /* main.m in Sources */,
+				A2D3FAAB15C05DDD002C6501 /* AppDelegate.m in Sources */,
+				A2D3FAB615C0630C002C6501 /* GeoFencer.m in Sources */,
+				A2D3FAB915C06C97002C6501 /* MyCircle.m in Sources */,
+				A2D3FABF15C07B21002C6501 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2D3FAA315C05DDC002C6501 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D3FAA415C05DDC002C6501 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2D3FAAC15C05DDD002C6501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2D3FAAD15C05DDD002C6501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2D3FAAF15C05DDD002C6501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoFence/GeoFence-Prefix.pch";
+				INFOPLIST_FILE = "GeoFence/GeoFence-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2D3FAB015C05DDD002C6501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoFence/GeoFence-Prefix.pch";
+				INFOPLIST_FILE = "GeoFence/GeoFence-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2D3FA9015C05DDC002C6501 /* Build configuration list for PBXProject "GeoFence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D3FAAC15C05DDD002C6501 /* Debug */,
+				A2D3FAAD15C05DDD002C6501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D3FAAE15C05DDD002C6501 /* Build configuration list for PBXNativeTarget "GeoFence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D3FAAF15C05DDD002C6501 /* Debug */,
+				A2D3FAB015C05DDD002C6501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2D3FA8D15C05DDC002C6501 /* Project object */;
+}
