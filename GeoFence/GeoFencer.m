@@ -16,7 +16,6 @@
 
 @implementation GeoFencer {
     CLLocationManager *_locationManager;
-    CLLocationManager *_slcLocationManager;
     UIBackgroundTaskIdentifier _bgTask;
     CLRegion *_curRegion;
     int _regionCount;
@@ -30,7 +29,6 @@
 #pragma mark Public Interface
 
 - (void) applicationLaunchedForLocationUpdate {
-    //_locationManager = nil;
     if (nil == _locationManager) {
         _locationManager = [[CLLocationManager alloc] init];
         _locationManager.distanceFilter = 100;
