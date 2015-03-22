@@ -15,7 +15,7 @@ Geofence requires iOS 6.0 or higher and ARC
 
 ## About This Project
 
-**Experiment**: Track a user's location using only geofencing and without the standard CoreLocation location services. I use a little bit of the significant-location change to wake the app up if it gets terminated. The goal is to compare the battery usage of this solution vs other location-tracking solutions.
+**Experiment**: Track a user's location using only geofencing and without the standard CoreLocation location services. I use a little bit of the significant-location change to wake the app up if it gets terminated. The goal is to compare the battery usage of this solution vs other location-tracking solutions, such as [standard CoreLocation updates](https://github.com/wendylu/Trackr)
 
 **Proposed Scheme:**
 
